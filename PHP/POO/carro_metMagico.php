@@ -4,16 +4,26 @@
     class Carro{
     
         //Método construtor é executado sempre que o obj é instanciado na class (obrigatório)
-        public function __construct(){
+        // public function __construct(){
+
+        //     echo("<br> Objeto carro instanciado<br>");
+
+        //     $this->modelo        = "Não informado";
+        //     $this->fabricante    = "Não informado";
+        //     $this->anoModelo     = 0;
+
+        // }
+
+
+          public function __construct($pFabricante = null, $pModelo = null, $pAnoModelo = null){
 
             echo("<br> Objeto carro instanciado<br>");
 
-            $this->modelo        = "Não informado";
-            $this->fabricante    = "Não informado";
-            $this->anoModelo     = 0;
+            $this->modelo        = $pModelo;
+            $this->fabricante    = $pFabricante;
+            $this->anoModelo     = $pAnoModelo;
 
         }
-
 
         // Declaração de variaveis, atributos 
         private $modelo;
@@ -89,6 +99,13 @@
     $meuOutroCarro->fabricante = "BMW";
 
     echo($meuOutroCarro->retornarDados());
+
+    echo ("<hr>");
+    $meuUltimoCarro = new Carro("Nissan", "March", 2012);
+    
+    echo($meuUltimoCarro->retornarDados());
+
+    
 
 
 ?>
