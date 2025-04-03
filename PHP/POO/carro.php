@@ -1,5 +1,5 @@
 <?php 
-
+.
     // Criando uma classe
     class Carro{
     
