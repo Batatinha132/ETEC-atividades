@@ -16,12 +16,17 @@ class Carro{
 // . concatena 
 $meuCarro = new Carro();
 
-// Carro.modelo 
+// Gravando valores dentro dos atributos do meu objeto
 $meuCarro->modelo = "UNO";
 $meuCarro->fabricante = "fiat";
 $meuCarro->anoModelo = 2014;
 
+// Recuperando valores internos dos atributos
 echo("Modelo do carro " . $meuCarro->modelo . "<br/>");
 echo("Fabricante" . $meuCarro->fabricante . "<br/>");
 echo("Ano de Modelo" . $meuCarro->anoModelo . "<br/>");
+
+// Invocar um METODO (Ação do objeto)
+$meuCarro->acelerar();
+
 ?>
