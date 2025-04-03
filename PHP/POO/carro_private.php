@@ -2,7 +2,7 @@
 
     // Criando uma classe
     class Carro{
-    
+    .
         // Declaração de variaveis, atributos 
         private $modelo;
 
