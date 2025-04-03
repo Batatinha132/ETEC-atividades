@@ -79,7 +79,7 @@
 
     echo("Ano do modelo: "    . $meuCarro->anoModelo   . "<br/>");
 
-    // Invocar um método (ação do objeto)
+    // Invocar um método (ação do objeto):
     $meuCarro->acelerar();
 
     echo ("<hr>");
@@ -90,6 +90,5 @@
 
     echo($meuOutroCarro->retornarDados());
 
-    
 
 ?>

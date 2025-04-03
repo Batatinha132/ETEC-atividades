@@ -17,7 +17,7 @@
 
         }
 
-    }
+    } // Fechamento de classe
 
     // Instanciando o objeto aos 'moldes' da classe carro
     // Sintaxe: $nomeObjeto = new MetodoConstrutor(); --> mesmo nome da classe
